@@ -9,31 +9,55 @@
 # Set delay to -1 for a one time kit.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
-  tools:
-    delay: 10
+  member:
+    delay: 7200
     items:
-      - 272 1
-      - 273 1
-      - 274 1
-      - 275 1
-  dtools:
-    delay: 600
+      - 272 1 name:&aMem&fber
+      - 273 1 name:&aMem&fber
+      - 274 1 name:&aMem&fber
+      - 275 1 name:&aMem&fber
+      - 301 1 unbreaking:1 name:&aMem&fber
+      - 300 1 unbreaking:1 name:&aMem&fber
+      - 299 1 unbreaking:1 name:&aMem&fber
+      - 298 1 unbreaking:1 name:&aMem&fber
+      - 58 1 name:&aMem&fber
+      - 280 1 name:&cRezidence
+      - 320 16 name:&aMem&fber
+  builder:
+    delay: 7200
     items:
-      - 278 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
-      - 277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
-      - 298 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
-      - 279:780 1
-  notch:
-    delay: 6000
+      - 17 64 name:&2Builder
+      - 155 64 name:&2Builder
+      - 155:2 64 name:&2Builder
+      - 260 32 name:&2Builder
+  vip:
+    delay: 172800
     items:
-      - 397:3 1 player:Notch
-  color:
-    delay: 6000
+      - 279 1 efficiency:4 unbreaking:3 name:&eVip
+      - 278 1 efficiency:4 unbreaking:3 fortune:3 name:&eVip
+      - 277 1 efficiency:4 unbreaking:3 name:&eVip
+      - 276 1 sharpness:4 knockback:2 fire_aspect:2 looting:2 unbreaking:3 name:&eVip
+      - 310 1 protection:4 unbreaking:3 aqua_affinity:1 name:&eVip
+      - 311 1 protection:4 unbreaking:3 name:&eVip
+      - 312 1 protection:4 unbreaking:3 name:&eVip
+      - 313 1 protection:4 unbreaking:3 depth_strider:2 name:&eVip
+      - 261 1 power:4 unbreaking:3 punch:2 name:&eVip
+      - 322 16 name:&eVip
+      - 262 64 name:&eVip
+  extravip:
+    delay: 604800
     items:
-      - 387 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
-  firework:
-    delay: 6000
-    items:
-      - 401 1 name:Angry_Creeper color:red fade:green type:creeper power:1
-      - 401 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle power:1
-      - 401 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1
+      - 279 1 efficiency:5 unbreaking:3 meading:1 name:&dExtraVip
+      - 278 1 efficiency:5 unbreaking:3 fortune:3 meading:1 name:&dExtraVip
+      - 277 1 efficiency:5 unbreaking:3 meading:1 name:&dExtraVip
+      - 276 1 sharpness:5 knockback:2 fire_aspect:2 unbreaking:3 sweeping_ege:3 meading:1 name:&dExtraVip
+      - 310 1 protection:5 unbreaking:3 aqua_affinity:1 meading:1 name:&dExtraVip
+      - 311 1 protection:5 unbreaking:3 thorns:3 meading:1 name:&dExtraVip
+      - 312 1 protection:5 unbreaking:3 meading:1 name:&dExtraVip
+      - 313 1 protection:5 unbreaking:3 meading:1 depth_strider:3 name:&dExtraVip
+      - 261 1 power:5 punch:2 flame:1 unbreaking:3 name:&dExtraVip
+      - 443 1 unbreaking:5 name:&dExtraVip
+      - 322 16 name:&dExtraVip
+      - 262 64 name:&dExtraVip
+      
+      
