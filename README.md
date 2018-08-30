@@ -1,0 +1,2 @@
+# EssentialsX
+Work for AdminTeam
